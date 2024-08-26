@@ -1,0 +1,78 @@
+@media only screen and (min-width:768px) {
+    #search-ipn {
+        width: 250px;
+    }
+
+    #top-content {
+        padding-top: 140px !important;
+    }
+
+    #categories div:nth-child(1) {
+        padding-top: 120px !important;
+    }
+
+    #mation-goals-img {
+        margin-left: 95px !important;
+    }
+
+    #mobile-label {
+        font-size: 17px;
+    }
+
+    #form-box {
+        margin-top: 50px !important;
+        padding-right: 70px !important;
+    }
+
+    #form-box h1 {
+        font-size: 35px;
+    }
+
+    #mobile-img img {
+        width: 40%;
+    }
+
+    #mobile-img img:nth-child(2) {
+        width: 38%;
+        top: 10px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    #top-content {
+        padding-top: 70px !important;
+    }
+    #categories div:nth-child(1) {
+        padding-top: 70px !important;
+    }
+    #img-307{
+        width: 100% !important;
+    }
+    #mation-goals-img {
+    }
+    #form-box {
+        margin-top: 10px !important;
+        padding-right: 10px !important;
+    }
+    #mobile-img{
+        margin-top: 40px !important;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    #img-307{
+        width: 50%;
+        margin-left: 180px !important;
+    }
+    #mobile-img{
+        margin-left: 150px !important;
+    }
+    #mobile-img img {
+        width: 30%;
+    }
+
+    #mobile-img img:nth-child(2) {
+        width: 28%;
+        top: 10px;
+    }
+}

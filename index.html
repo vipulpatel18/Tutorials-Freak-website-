@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand me-0" href="#"><img src="img/Group 282.png" class="w-75" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex position-relative" role="search">
+          <input class="form-control me-2" id="search-ipn" type="search" placeholder="What do you want to learn?"
+            aria-label="Search">
+          <label for="search-ipn">
+            <i class="fa-solid fa-magnifying-glass position-absolute" id="search-icon"></i>
+          </label>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tutorials
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Examples
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Interview Questions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Quizzes</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item d-flex gap-2 align-items-center">
+            <button type="button" id="get-start-btn" class="btn ">Subscribe PRO</button>
+            <i class="fa-solid fa-globe" id="globe-icon"></i>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-xl overflow-hidden">
+    <div class="container-xl row m-auto">
+      <div id="top-content" class="col-12  col col-md-6 ps-md-5 py-5">
+        <span id="Creating-span" class="h-3 p-2 my-3 rounded-pill">Creating</span>
+        <h1 class="my-4 fs-1 fw-bolder">A Value Addition To Your Learning Graph</h1>
+        <p>Choose from 130,000 online video courses with new additions published every month.</p>
+        <button type="button" id="get-start-btn" class="btn ">Get Started Now</button>
+      </div>
+      <div id="main-img" class="col-12 col-md-6 mt-md-5">
+        <img src="img/Group 239.png" alt="">
+      </div>
+    </div>
+
+    <div id="features-container" class="text-center mt-5">
+      <span>features</span>
+      <h2 class="h2 py-2 ">A Value Addition To Your Learning Graph</h2>
+      <p class="px-lg-5 d-lg-none">Choose from 130,000 online video courses with new additions published every month.
+      </p>
+      <p class="px-lg-5 d-none d-lg-block">Choose from 130,000 online video courses with new <br> additions published
+        every month.</p>
+    </div>
+
+    <div class="row p-3 p-lg-5" id="icon-box">
+      <div class="col-12 col-md-6 col-lg border border-secondary me-md-0 me-2 mb-2 ps-4" data-aos="zoom-in-right">
+        <img src="img/award 1.png" class="rounded-circle" alt="">
+        <h4 class="mt-4">Certified Courses</h4>
+        <p class="mb-4">Choose from 100+ categories with innovating new ideas via scientific learning process.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg border border-secondary me-md-0  me-2 mb-2 ps-4" data-aos="zoom-in-left">
+        <img src="img/Vector.png" id="vector-img" class="rounded-circle" alt="">
+        <h4 class="mt-4">Professional Educator</h4>
+        <p class="mb-4">Choose from 100+ categories with innovating new ideas via scientific learning process.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg border border-secondary me-2 mx-md-auto  mb-2 ps-4" data-aos="zoom-in-right">
+        <img src="img/Frame.png" class="rounded-circle" alt="">
+        <h4 class="mt-3">Focus On Achievement</h4>
+        <p class="mb-3">Choose from 100+ categories with innovating new ideas via scientific learning process.</p>
+      </div>
+    </div>
+
+    <div id="categories" class="row">
+      <div class="col-12 col-md-6 p-3" data-aos="fade-up-right">
+        <h1>Explore wide range of categories</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue est volutpat mauris arcu sed mi ac nec. Nullam
+          nec fringilla netus donec pellentesque.</p>
+        <div class="mb-3">
+          <i class="fa-solid fa-check rounded-circle p-1 "></i>
+          <span class="ps-1">Quis justo sit vitae quam odio velit mattis.</span>
+        </div>
+        <div class="mb-3">
+          <i class="fa-solid fa-check rounded-circle p-1 "></i>
+          <span class="ps-1">Quis justo sit vitae quam odio velit mattis.</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-check rounded-circle p-1 "></i>
+          <span class="ps-1">Quis justo sit vitae quam odio velit mattis.</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6" data-aos="fade-up-left">
+        <img src="img/Frame 237.png" alt="">
+      </div>
+    </div>
+
+    <div class="row p-3 mt-5">
+
+      <div class="col-12 col-md-5 col-lg border border-secondary rounded me-md-0 m-md-auto mb-md-3 mb-2 ps-4 pt-4 pb-3"  data-aos="zoom-out-right">
+        <img src="img/award 2.png" class="rounded-circle" alt="">
+        <h4 class="mt-4">Learn Ethical Hacking for Beginners</h4>
+        <p class="mb-4">Learn Ethical Hacking from scratch & All 5 phases of Penetration Testing.</p>
+        <a href="#" id="get-start-anchor" class="fw-bold">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="col-12 col-md-5 col-lg border border-secondary rounded me-md-0 m-md-auto mb-md-3 mb-2 ps-4 pt-4 pb-3"  data-aos="zoom-out-left">
+        <img src="img/award 2.png" class="rounded-circle" alt="">
+        <h4 class="mt-4">Data Structures & Algorithms Course</h4>
+        <p class="mb-4">Learn Ethical Hacking from scratch & All 5 phases of Penetration Testing.</p>
+        <a href="#" id="get-start-anchor" class="fw-bold">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="col-12 col-md-5 col-lg border border-secondary rounded me-md-0 m-md-auto mb-md-3 mb-2 ps-4 pt-4 pb-3"  data-aos="zoom-out-right">
+        <img src="img/award 2.png" class="rounded-circle" alt="">
+        <h4 class="mt-4">Front-End Web Development Course</h4>
+        <p class="mb-4">Learn Ethical Hacking from scratch & All 5 phases of Penetration Testing.</p>
+        <a href="#" id="get-start-anchor" class="fw-bold">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="col-12 col-md-5 col-lg border border-secondary rounded me-md-0 m-md-auto mb-md-3 mb-2 ps-4 pt-4 pb-3"  data-aos="zoom-out-left">
+        <img src="img/award 2.png" class="rounded-circle" alt="">
+        <h4 class="mt-4">Google Analytics Mastery Course</h4>
+        <p class="mb-4">Learn Ethical Hacking from scratch & All 5 phases of Penetration Testing.</p>
+        <a href="#" id="get-start-anchor" class="fw-bold">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <button type="button" id="get-start-btn" class="btn m-auto  d-md-none">Explore All Coureses</button>
+      <div class="d-flex mt-3"><button type="button" id="get-start-btn" class="btn m-auto d-none d-md-block">Explore All
+          Coureses</button></div>
+    </div>
+
+    <div id="features-container" class="text-center mt-5">
+      <span>Our Mission and Goals</span>
+      <h2 class="h2 py-2 ">Start connecting and learn smartly</h2>
+      <p class="px-lg-5 d-md-none">It is a long established fact that a reader will be distracted by the readable
+        content of a page when looking at its layout.</p>
+      <p class="px-lg-5 d-none d-md-block">It is a long established fact that a reader will be distracted by the
+        readable <br> content of a page when looking at its layout.</p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 col-md-4 ms-md-1" data-aos="flip-up" id="mation-goals-img">
+        <img id="img-307" class="mb-3 w-sm-25" src="img/Group 307.png" alt="">
+      </div>
+      <div class="col-12  col-md-6">
+        <div class="col-12 col-lg me-2 mb-2 ps-4"  data-aos="fade-up-right">
+          <img src="img/Vector.png" id="vector-img" class="rounded-circle" alt="">
+          <h4 class="mt-4">What is Lorem Ipsum?</h4>
+          <p class="mb-4 d-lg-none">Enim amet feugiat odio mattis pellentesque elit, vehicula in neque. Laoreet aliquam
+            consectetur vestibulum et sed sed risus. Hendrerit diam risus velit, malesuada turpis ipsum, tellus
+            convallis nibh.</p>
+          <p class="mb-4 d-none d-lg-block">Enim amet feugiat odio mattis pellentesque elit, vehicula in neque. Laoreet
+            <br> aliquam consectetur vestibulum et sed sed risus. Hendrerit diam risus velit,<br> malesuada turpis
+            ipsum, tellus convallis nibh.
+          </p>
+        </div>
+        <div class="col-12 col-lg me-2 mb-2 ps-4" data-aos="fade-up-left">
+          <img src="img/Vector.png" id="vector-img" class="rounded-circle" alt="">
+          <h4 class="mt-4">What is Lorem Ipsum?</h4>
+          <p class="mb-4 d-lg-none">Enim amet feugiat odio mattis pellentesque elit, vehicula in neque. Laoreet aliquam
+            consectetur vestibulum et sed sed risus. Hendrerit diam risus velit, malesuada turpis ipsum, tellus
+            convallis nibh.</p>
+          <p class="mb-4 d-none d-lg-block">Enim amet feugiat odio mattis pellentesque elit, vehicula in neque. Laoreet
+            <br> aliquam consectetur vestibulum et sed sed risus. Hendrerit diam risus velit,<br> malesuada turpis
+            ipsum, tellus convallis nibh.
+          </p>
+        </div>
+        <button type="button" id="get-start-btn" class="btn d-none d-lg-block ms-lg-4">Explore All Coureses</button>
+        <div class="d-flex mt-3"><button type="button" id="get-start-btn" class="btn m-auto d-lg-none">Explore All
+            Coureses</button></div>
+      </div>
+    </div>
+
+    <div id="mid-box" class="p-3 p-lg-5 my-4 text-center">
+      <h1 class="d-md-none mb-4">Set up your account today and choose from 130,000 online course content.</h1>
+      <h1 class="d-none mb-4 d-md-block">Set up your account today and choose from <br> 130,000 online course content.
+      </h1>
+      <button type="button" class="btn border rounded me-lg-4">Get Started Now</button>
+      <button type="button" id="get-start-btn" class="btn ">Get Started Now</button>
+
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-12 col-md-7 p-3" id="form-box" data-aos="zoom-out-left">
+        <h1 class="fw-bold my-3">Get the learning app today</h1>
+        <p>Check out our app library and download the one that you want to learn anytime, anywhere.</p>
+        <div class="d-flex my-3">
+          <img src="img/App Store.png" class="me-1 me-lg-4" alt="">
+          <img src="img/Google Play.png" alt="">
+        </div>
+        <form>
+          <div class="form-group my-4">
+            <label for="mobileNumber" id="mobile-label">Enter your mobile number to get the app download link:</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <select id="country-code" class="custom-select" id="countryCode">
+                  <option value="+91">+91</option>
+                  <option value="+1">+1</option>
+                  <option value="+44">+44</option>
+                  <option value="+61">+61</option>
+                  <option value="+81">+81</option>
+                  <option value="+49">+49</option>
+                  <option value="+33">+33</option>
+                  <option value="+39">+39</option>
+                  <option value="+86">+86</option>
+                  <option value="+55">+55</option>
+                  <option value="+7">+7</option>
+                </select>
+              </div>
+              <input type="text" class="form-control" id="mobileNumber" placeholder="Enter mobile number">
+              <div class="input-group-append ms-1 ms-lg-4">
+                <button id="send-link" class="btn btn-primary" type="button">Send Link</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-md-5 position-relative" id="mobile-img" data-aos="zoom-out-right">
+        <img src="img/iPhone mockup.png" class="me-3" alt="">
+        <img src="img/Frame 239.png" class="position-absolute" alt="">
+      </div>
+    </div>
+
+    <div id="trending-course" class="p-2 p-lg-4">
+      <h4>Trending Courses</h4>
+      <a href="#">Learn Ethical Hacking for Beginners I</a>
+      <a href="#">All about Data Structures & Algorithms Course I</a>
+      <a href="#">The Complete Front-End Web Development Course I</a>
+      <a href="#">Google Analytics Mastery Course I</a>
+      <a href="#">Mastery in Digital Marketing (Google Analytics + SEO) I</a>
+      <a href="#">Learn Ethical Hacking for Beginners I</a>
+      <a href="#">All about Data Structures & Algorithms Course I</a>
+      <a href="#">The Complete Front-End Web Development Course I</a>
+      <a href="#">Google Analytics Mastery Course I</a>
+      <a href="#">Mastery in Digital Marketing (Google Analytics + SEO) I</a>
+      <h4 class="mt-4">About Tutorials Freak</h4>
+      <p>Elementum feugiat libero et eu iaculis turpis semper venenatis. Vel nulla commodo a, ultrices elit ut
+        adipiscing augue sed. Hendrerit sociis nulla est sem metus est, tellus. In volutpat at risus elit sit purus
+        tristique eget. Viverra senectus nibh enim, praesent. Massa venenatis tempus molestie faucibus. Nibh massa etiam
+        donec sed amet sed platea interdum vel. Netus consectetur amet amet consectetur id viverra. Convallis molestie
+        dictum quam ipsum eget.</p>
+    </div>
+
+    <footer class="row my-4">
+      <div class="col-12 col-lg-5">
+        <div><img src="img/logo.png" alt=""></div>
+        <div>
+          <a href="#">Terms & Conditions |</a>
+          <a href="#"> Privacy Policy</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mt-3">
+        <div class="d-flex justify-content-lg-end gap-2 mb-2">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p class="text-lg-end">© 2022 Tutorialsfreak . All Rights Reserved | Design By WsCube Tech</p>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
